@@ -1,0 +1,33 @@
+﻿/**
+ * Display SP-Wiki articles in categories
+ */
+
+#wiki_categories {
+    background-color: #fff;
+}
+
+div.wiki_category_box_header {
+    background-color: #0072c6;
+    color: #fff;
+}
+
+div.wiki_category_box {
+    float: left;
+    width: 325px;
+    height: 100%;
+    margin: 10px;
+}
+
+div.wiki_category_box_content, div.wiki_category_box_header {
+    padding: 2px 2px 2px 8px;
+}
+
+div.wiki_category_box, div.wiki_category_box_header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #0072c6;
+}
+
+div.wiki_category_box_clear {
+    clear: left;
+}
